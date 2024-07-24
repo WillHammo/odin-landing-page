@@ -93,3 +93,26 @@ a{
 .services p{
     text-align: center;
 }
+
+.testimonial{
+    padding: 5% 10%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial .quote{
+    font-size: 36px;
+    margin: 0;
+    color: #1f2937;
+    font-style:italic;
+    font-weight: lighter;
+}
+
+.testimonial .source{
+    margin: 0;
+    color: #1f2937;
+    font-weight: bold;
+    margin-left: auto;
+    font-size: 20px;
+}
