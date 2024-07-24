@@ -1,5 +1,5 @@
 body{
-    padding: 0;
+    padding: 0 10%;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
 }
 
 .header ul{
@@ -28,4 +27,31 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.intro{
+    display: flex;
+    padding: 5% 0;
+}
+
+.intro div{
+    margin-right: 10%;
+}
+
+.intro h1{
+    margin: 0;
+    font-size: 48px;
+}
+
+.intro p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro button{
+    border: none;
+    border-radius: 8px;
+    padding: 2% 6%;
+    background-color: #3882f6;
+    color: #fff;
 }
